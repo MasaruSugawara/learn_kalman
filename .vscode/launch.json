@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch App to Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/kalman_app",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/Debug",
+      "preLaunchTask": "CMake debug build"
+    },
+    {
+      "name": "Run Unit Test",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/unit_test",
+      "args": [],
+      "cwd": "${workspaceFolder}/build/Debug",
+      "preLaunchTask": "CMake debug build"
+    }
+  ]
+}
